@@ -1,0 +1,160 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.one {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffdd57; /* Yellow */
+}
+
+.logo {
+    width: 10%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nav {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #090909; /* Light Gray */
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav ul li a:hover {
+    background-color: #393e46; /* Dark Gray */
+}
+
+.btn {
+    width: 10%;
+    height: 60px;
+    display: grid;
+    align-items: center;
+    margin: 1%;
+}
+
+.two {
+    width: 100%;
+    height: 440px;
+    display: flex;
+}
+
+.div-1 {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    background-color: #f9f9f9;
+}
+
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn button {
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btn-6 {
+    padding-bottom: 18px;
+    display: flex;
+    color: white;
+}
+
+.btns button{
+    color: #000;
+    background-color: yellow;
+    border: none;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 13px 0px;
+    border-radius: 10px;
+}
+
+#btn-1, #btn-2, #btn-3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.div-2 {
+    width: 50%;
+    height: 400px;
+    margin: 1%;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    background-color: #f9f9f9;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+
+.div-2 p {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: center;
+}
